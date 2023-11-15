@@ -1,0 +1,94 @@
+body{
+ background-color: rgba(0, 217, 255, 0.637);
+ display: grid;
+ place-items: center;
+ height: 100vh;
+ margin: 0;
+ padding: 0;
+ user-select: none;
+}
+.contanier{
+ /* display: none !important; */
+ display: grid;
+ place-items: center;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
+ width: 1fr;
+ grid-gap:40px;
+ height: 1fr;
+ /* padding: 20px; */
+ /* border: 2px solid black; */
+}
+.box{
+ width: 240px;
+ height: 250px;
+ cursor: pointer;
+ border: 2px solid black;
+ display: flex;
+ align-items: end;
+ justify-content: flex-end;
+ padding-left: 20px;
+}
+.image{
+ position: absolute;
+ width: 1000px;
+ /* position: relative; */
+ height: 700px;
+ mask-image: initial;
+ /* border: 2px solid red; */
+ /* display: ; */
+}
+.box1{
+ background-image: url(../image/beach.jpg);
+ }
+ .box2{
+  background-image: url(../image/flower-5.jpg);
+
+  }
+  .box3{
+   background-image: url(../image/happyface.png);
+   }
+   .box4{
+    background-image: url(../image/hmmmface.png);
+    }
+    .box5{
+     background-image: url(../image/tears_of_steel_bridge_2k.jpg);
+     }
+     .box6{
+      background-image: url(../image/Image\ \(2\).png);
+      }
+      .image1{
+       display: none;
+       background-image: url(../image/beach.jpg);
+       }
+       .image2{
+       display: none;
+
+        background-image: url(../image/flower-5.jpg);
+
+        }
+        .image3{
+       display: none;
+
+         background-image: url(../image/happyface.png);
+         }
+         .image4{
+       display: none;
+
+          background-image: url(../image/hmmmface.png);
+          }
+          .image5{
+       display: none;
+
+           background-image: url(../image/tears_of_steel_bridge_2k.jpg);
+           }
+           .image6{
+            display:none;
+            background-image: url(../image/Image\ \(2\).png);
+            }
+
+      p{
+       color: rgb(180, 38, 38);
+       font-size: 20px;
+
+      }
